@@ -133,6 +133,7 @@
     <ClInclude Include="clsCurrency.h" />
     <ClInclude Include="clsCurrencyExchangeScreen.h" />
     <ClInclude Include="clsDate.h" />
+    <ClInclude Include="clsFindCurrencyScreen.h" />
     <ClInclude Include="clsInputValidate.h" />
     <ClInclude Include="clsListCurrencies.h" />
     <ClInclude Include="clsString.h" />
