@@ -5,5 +5,6 @@ C:\Users\DELL\Downloads\My-GitHub\Currency-Exchange-System\Currency-Exchange-Sys
 C:\Users\DELL\Downloads\My-GitHub\Currency-Exchange-System\Currency-Exchange-System\clsString.h(192,1): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
 C:\Users\DELL\Downloads\My-GitHub\Currency-Exchange-System\Currency-Exchange-System\clsString.h(323,1): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
 C:\Users\DELL\Downloads\My-GitHub\Currency-Exchange-System\Currency-Exchange-System\clsString.h(371,1): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\DELL\Downloads\My-GitHub\Currency-Exchange-System\Currency-Exchange-System\clsCurrency.h(25,84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\DELL\Downloads\My-GitHub\Currency-Exchange-System\Currency-Exchange-System\clsInputValidate.h(103,14): warning C4244: 'initializing': conversion from 'double' to 'short', possible loss of data
+C:\Users\DELL\Downloads\My-GitHub\Currency-Exchange-System\Currency-Exchange-System\clsInputValidate.h(106,23): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
   Currency-Exchange-System.vcxproj -> C:\Users\DELL\Downloads\My-GitHub\Currency-Exchange-System\Currency-Exchange-System\x64\Debug\Currency-Exchange-System.exe
