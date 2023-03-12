@@ -22,7 +22,7 @@ private:
 
 		vObject = clsString::Split(Line, "#//#");
 
-		return clsCurrency(enMode::enUpdateMode, vObject[0], vObject[1], vObject[2], stoi(vObject[3]));
+		return clsCurrency(enMode::enUpdateMode, vObject[0], vObject[1], vObject[2], stof(vObject[3]));
 
 	}
 
@@ -43,24 +43,6 @@ private:
 
 	static clsCurrency _GetEmptyCurrencyObject() {
 		return clsCurrency(enMode::enEmptyMode, "", "", "", 0);
-	}
-
-	static vector <clsCurrency> _LoadCurrenciesFromFile() {
-		vector <clsCurrency> vCurrencies;
-		fstream MyFile;
-
-		MyFile.open("Currencies.txt", ios::in);
-
-		if (MyFile.is_open()) {
-			string Line = "";
-
-			while (getline(MyFile, Line)) {
-				vCurrencies.push_back(_ConvertLineToCurrencyObject(Line));
-			}
-
-			MyFile.close();
-		}
-		return vCurrencies;
 	}
 
 	void _SaveCurrenciesToFile(vector <clsCurrency> vCurrencies) {
@@ -119,6 +101,24 @@ public:
 	void UpdateCurrencyRate(float NewRate) {
 		_CurrencyRate = NewRate;
 		_Update();
+	}
+
+	static vector <clsCurrency> _LoadCurrenciesFromFile() {
+		vector <clsCurrency> vCurrencies;
+		fstream MyFile;
+
+		MyFile.open("Currencies.txt", ios::in);
+
+		if (MyFile.is_open()) {
+			string Line = "";
+
+			while (getline(MyFile, Line)) {
+				vCurrencies.push_back(_ConvertLineToCurrencyObject(Line));
+			}
+
+			MyFile.close();
+		}
+		return vCurrencies;
 	}
 
 	bool IsEmpty() {

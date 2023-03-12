@@ -35,5 +35,8 @@
     <ClInclude Include="clsDate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="clsListCurrencies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
