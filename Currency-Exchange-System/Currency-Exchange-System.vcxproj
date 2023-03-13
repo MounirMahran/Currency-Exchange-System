@@ -137,6 +137,7 @@
     <ClInclude Include="clsInputValidate.h" />
     <ClInclude Include="clsListCurrencies.h" />
     <ClInclude Include="clsString.h" />
+    <ClInclude Include="clsUpdateRateScreen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
