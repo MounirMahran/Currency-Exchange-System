@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="clsCurrency.h" />
+    <ClInclude Include="clsCurrencyCalculatorScreen.h" />
     <ClInclude Include="clsCurrencyExchangeScreen.h" />
     <ClInclude Include="clsDate.h" />
     <ClInclude Include="clsFindCurrencyScreen.h" />
